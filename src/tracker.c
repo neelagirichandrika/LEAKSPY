@@ -2,7 +2,7 @@
 #include "leakspy.h"
 #include "reporter.h"
 
-#define MAX_ALLOCATIONS 1000
+#define MAX_ALLOCATIONS 100000
 
 static Allocation allocations[MAX_ALLOCATIONS];
 static size_t allocation_count = 0;
